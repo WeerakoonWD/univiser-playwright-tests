@@ -1,0 +1,5 @@
+scenario,email,password,expectedType
+wrong username and wrong password,wathsala@univiser.io,Test,incorrectUsername
+wrong username and correct password,wathsala@univiser.io,Test123#,incorrectUsername
+correct username and wrong password,wathsala+test23@univiser.io,Test,loginFailed
+correct username and empty password,wathsala+test23@univiser.io,"  ",loginFailed
